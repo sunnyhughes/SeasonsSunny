@@ -4,7 +4,7 @@
   
    body {
     display: contents;
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
   header {
       display:block;
@@ -20,18 +20,15 @@
       color: white;
       line-height: 100px;
       margin: 0;
-  }
-  
-  p {
-    display: block;
+   }
     
-}
    footer {
     display: flex;
     align-content: center;
     margin: 5px;
     padding: 5px;
 }
+*/
 
 /* these are the navigation settings*/
 
@@ -235,7 +232,7 @@ button #hamburgerBtn {
       color: white;
     }
   
-  /* Create two equal columns that sits next to each other */
+  /* Create 3 equal columns that sits next to each other */
   .column {
     -ms-flex: 50%; /* IE 10 */
     flex: 50%;
