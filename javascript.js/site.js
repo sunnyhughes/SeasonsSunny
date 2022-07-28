@@ -4,6 +4,9 @@ function toggleMenu() {
     document.getElementById("topNav").classList.toggle ("open")
     ("open")
 }
+let x = document.getElementById('hamburgerBtn');
+    x.onclick = toggleMenu;
+
 
  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 
@@ -24,8 +27,9 @@ function myFunction() {
   }
 }
 
-/* this is javascript for the photo wall */
 
+/* this is javascript for the photo wall */
+/*
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
 
@@ -65,4 +69,4 @@ for (var i = 0; i < btns.length; i++) {
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
-}
+}*/
