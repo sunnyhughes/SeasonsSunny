@@ -1,9 +1,11 @@
+
 // This is for the click //
 function toggleMenu() {
     document.getElementById("topNav").classList.toggle ("open")
 }
-let x = document.getElementById('hamburgerBtn');
+/*let x = document.getElementById('hamburgerBtn');
     x.onclick = toggleMenu;
+    */
 
  /* toggle between showing and hiding the menu when the user click on the hamburger menu */
 
